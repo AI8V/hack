@@ -1,7 +1,7 @@
 (async () => {
   try {
     // استدعاء بيانات IP و Location من ipapi.co
-    const res = await fetch("https://ipapi.co/json/");
+    const res = await fetch("https://ipwho.is/");
     const ipData = await res.json();
 
     // تجهيز البيانات للإرسال
